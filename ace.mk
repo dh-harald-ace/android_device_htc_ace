@@ -59,7 +59,8 @@ PRODUCT_PACKAGES += \
 # missing packages
 PRODUCT_PACKAGES += \
     Mms \
-    Stk
+    Stk \
+    Superuser
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
