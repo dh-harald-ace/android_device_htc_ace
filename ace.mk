@@ -40,6 +40,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vold.umsdirtyratio=20
 
+# Disable visual strict mode, even on eng builds
+PRODUCT_DEFAULT_PROPERTY += \
+persist.sys.strictmode.visual=0
+
 DEVICE_PACKAGE_OVERLAYS += device/htc/ace/overlay
 
 PRODUCT_COPY_FILES += \
