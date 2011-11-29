@@ -56,6 +56,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     lights.spade \
     sensors.spade \
+    gps.spade \
     gralloc.msm7x30 \
     audio_policy.msm7x30 \
     audio.primary.msm7x30
