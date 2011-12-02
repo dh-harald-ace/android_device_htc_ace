@@ -49,6 +49,10 @@ DEVICE_PACKAGE_OVERLAYS += device/htc/ace/overlay
 PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml \
 
+# Nexus Prime bootanimation
+PRODUCT_COPY_FILES += \
+    device/htc/ace/media/bootanimation.zip:system/media/bootanimation.zip
+
 # gsm config xml file
 PRODUCT_COPY_FILES += \
     device/htc/ace/voicemail-conf.xml:system/etc/voicemail-conf.xml
